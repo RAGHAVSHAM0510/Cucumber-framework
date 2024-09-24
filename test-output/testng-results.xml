@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-03T08:46:27 IST" name="Suite" finished-at="2024-07-03T08:46:49 IST" duration-ms="21834">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.PIMPageRunnerTest@5158b42f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.AdminPageRunnerTest@4562e04d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-07-03T08:46:27 IST" name="Test 1" finished-at="2024-07-03T08:46:48 IST" duration-ms="21463">
+      <class name="TestRunner.PIMPageRunnerTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunner.PIMPageRunnerTest@5158b42f]" started-at="2024-07-03T08:46:27 IST" name="setUpClass" finished-at="2024-07-03T08:46:27 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.PIMPageRunnerTest@5158b42f]" started-at="2024-07-03T08:46:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T08:46:36 IST" duration-ms="8262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate login functionaliy"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test End to End PIM Page Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.PIMPageRunnerTest@5158b42f]" started-at="2024-07-03T08:46:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T08:46:36 IST" duration-ms="540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate home page Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test End to End PIM Page Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.PIMPageRunnerTest@5158b42f]" started-at="2024-07-03T08:46:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T08:46:48 IST" duration-ms="12081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate PIM Page Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test End to End PIM Page Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.PIMPageRunnerTest@5158b42f]" started-at="2024-07-03T08:46:48 IST" name="tearDownClass" finished-at="2024-07-03T08:46:48 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.PIMPageRunnerTest -->
+    </test> <!-- Test 1 -->
+    <test started-at="2024-07-03T08:46:27 IST" name="Test 2" finished-at="2024-07-03T08:46:49 IST" duration-ms="21834">
+      <class name="TestRunner.AdminPageRunnerTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunner.AdminPageRunnerTest@4562e04d]" started-at="2024-07-03T08:46:27 IST" name="setUpClass" finished-at="2024-07-03T08:46:27 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.AdminPageRunnerTest@4562e04d]" started-at="2024-07-03T08:46:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T08:46:36 IST" duration-ms="8774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate login functionaliy"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test End to End Admin Page Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.AdminPageRunnerTest@4562e04d]" started-at="2024-07-03T08:46:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T08:46:37 IST" duration-ms="655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate home page Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test End to End Admin Page Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.AdminPageRunnerTest@4562e04d]" started-at="2024-07-03T08:46:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T08:46:49 IST" duration-ms="11859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate Admin page Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test End to End Admin Page Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.AdminPageRunnerTest@4562e04d]" started-at="2024-07-03T08:46:49 IST" name="tearDownClass" finished-at="2024-07-03T08:46:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.AdminPageRunnerTest -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- Suite -->
+</testng-results>
